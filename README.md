@@ -1,6 +1,32 @@
-# R-W-M-D
-rim world mod pack downloader for rimworldbase.com
-# RimWorld Mod Pack Downloader
+<!-- readme-design:start -->
+<p align="center">
+  <picture>
+    <source media="(prefers-reduced-motion: reduce)" srcset="docs/readme/hero.svg" />
+    <img src="docs/readme/hero.gif" alt="R-W-M-D — RimWorldBase mod-pack downloader documentation." width="1200" />
+  </picture>
+</p>
+
+<p align="center">
+  <img alt="RIMWORLD" src="https://img.shields.io/badge/RIMWORLD-192C40?style=flat-square" />
+  <img alt="MODS" src="https://img.shields.io/badge/MODS-192C40?style=flat-square" />
+  <img alt="DOCUMENTATION" src="https://img.shields.io/badge/DOCUMENTATION-192C40?style=flat-square" />
+</p>
+
+<p align="center"><a href="#features">Features</a> · <a href="#requirements">Requirements</a> · <a href="#installation">Installation</a> · <a href="#usage">Usage</a> · <a href="#customization">Customization</a></p>
+
+<table>
+  <tr>
+    <td width="33%" valign="top"><b>Mod packs</b><br/>RimWorldBase downloader concept.</td>
+    <td width="33%" valign="top"><b>Organization</b><br/>Documented per-pack folder layout.</td>
+    <td width="33%" valign="top"><b>Current branch</b><br/>Implementation script is absent.</td>
+  </tr>
+</table>
+
+![Project map: Mod-pack catalogue → Downloader / absent → Organized mod folders](docs/readme/overview.svg)
+<!-- readme-design:end -->
+
+> [!IMPORTANT]
+> **Documentation-only branch:** `R-W-M-D.py` is not committed here. The instructions below describe the intended tool, not a runnable checkout. Obtain the implementation before following them.
 
 A Python tool for downloading mod packs from RimWorldBase.com.
 
